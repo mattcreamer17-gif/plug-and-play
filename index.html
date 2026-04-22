@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on where AI fits inside Plug and Play's 2026 cohorts.</title>
+<meta name="description" content="Saw the 113-startup Silicon Valley 2026 batch and the Valencia AI center announcement. A shared methodology for where AI actually fits in a founder's stack, for Plug and Play cohorts." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar" role="banner">
+  <div class="wrap">
+    <img src="logo.png" alt="Plug and Play Tech Center" class="logo" />
+    <div class="program-tag" aria-label="Program partner brief">
+      <span class="bar" aria-hidden="true"></span>
+      Program Partner Brief
+    </div>
+  </div>
+</header>
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div class="program-row">
+      <span class="pill accent reveal reveal-1">Fintech &amp; AI Fund</span>
+      <span class="pill reveal reveal-1">Silicon Valley 2026</span>
+      <span class="pill reveal reveal-1">Valencia AI Center</span>
+      <span class="pill reveal reveal-1">MANA Common, Miami</span>
+    </div>
+
+    <h1 id="h1" class="reveal reveal-2">
+      A read on where AI fits inside <span class="accent">Plug and Play's</span> 2026 cohorts. <span class="muted">And where it does not.</span>
+    </h1>
+
+    <p class="lede reveal reveal-3">
+      113 startups in the first Silicon Valley batch of 2026. A $50M Fintech &amp; AI Fund closed in June. An AI center of excellence in Valencia. Every vertical is getting the same corporate-partner question: where does AI actually fit in your stack. A shared methodology for answering it.
+    </p>
+
+    <div class="cta-row reveal reveal-4">
+      <a href="#ask" class="btn btn-primary">
+        30 minutes with Matt <span class="arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <a href="#frame" class="btn btn-secondary">
+        Read the frame
+      </a>
+    </div>
+
+    <div class="signal-line reveal reveal-5" aria-label="Eduba signal line">
+      <div>
+        <strong>1,500+</strong>
+        <span>Trained since May 2025</span>
+      </div>
+      <div>
+        <strong>6,000&ndash;9,000</strong>
+        <span>Hours saved per year</span>
+      </div>
+      <div>
+        <strong>95%</strong>
+        <span>30-day tool adoption</span>
+      </div>
+      <div>
+        <strong>40+</strong>
+        <span>KPMG UK executives (Big Four)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="context" aria-labelledby="context-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label" id="context-h">01 / Context</div>
+      <h2>The cohort is getting the question. The answer is still case-by-case.</h2>
+    </div>
+    <p class="drop">The first Silicon Valley batch of 2026 brought in 113 startups. The Fintech &amp; AI Fund closed at $50M in June with nine institutional LPs. Valencia stood up an AI center of excellence in April. The MANA Common office in Miami is entering its sixth year. Across every vertical, portfolio founders are getting the same corporate-partner question: where does AI actually fit in your stack.</p>
+    <p>Program directors are answering it case-by-case. The quality of that answer varies by vertical, by director, by the founder's ability to articulate the workflow. This page is about what a shared methodology for that answer would look like, and which cohort would be the cleanest first test.</p>
+  </div>
+</section>
+
+<section class="frame" id="frame" aria-labelledby="frame-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label" id="frame-h">02 / The frame</div>
+      <h2>Most companies automate the wrong things. Value sits above whatever just got commoditized.</h2>
+    </div>
+
+    <div class="body">
+      <p>The job of the methodology is to help founders figure out which layer each problem belongs on: AI, traditional code, rule-based logic, human judgment, or "do not build it at all." A working estimate across the engagements we run:</p>
+    </div>
+
+    <div class="stack-grid" role="list">
+      <div class="stack-tile reveal reveal-1" role="listitem">
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pct">60<sup>%</sup></div>
+        <h4>Traditional</h4>
+        <p>Code and database work. Deterministic, testable, already well understood by most engineering teams.</p>
+      </div>
+      <div class="stack-tile reveal reveal-2" role="listitem">
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pct">30<sup>%</sup></div>
+        <h4>Rule-based</h4>
+        <p>Explicit logic. Policy, routing, validation, scoring. Cheaper to maintain, easier to audit than an LLM call.</p>
+      </div>
+      <div class="stack-tile reveal reveal-3" role="listitem">
+        <span class="rule" aria-hidden="true"></span>
+        <div class="pct">10<sup>%</sup></div>
+        <h4>Genuine AI</h4>
+        <p>Problems where probabilistic reasoning, language, or pattern extraction earns its cost. The layer worth protecting.</p>
+      </div>
+    </div>
+
+    <div class="applied">
+      <p><strong>Applied to a PNP cohort:</strong> the question is not how should these 113 founders use AI. The question is which of their core workflows actually belong on an AI layer versus a deterministic layer they already know how to build. Teams who skip this distinction waste runway putting LLMs where Postgres would ship faster, cheaper, and with better guarantees.</p>
+    </div>
+  </div>
+</section>
+
+<section class="case" aria-labelledby="case-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label" id="case-h">03 / Relevant case</div>
+      <h2>Methodology layer on top of a production ML shop. The template maps onto Plug and Play.</h2>
+    </div>
+
+    <div class="case-grid">
+      <div>
+        <p>Eduba runs an active partnership with NLP Logix, a production ML shop in Jacksonville. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists. The structure is clean: Eduba teaches the methodology and scopes the orchestration layer, NLP Logix delivers the build where production data infrastructure is required.</p>
+        <p>That template maps directly onto a PNP relationship. Eduba teaches a cohort. PNP delivers the cohort. NLP Logix is downstream for any portfolio company that needs heavy ML engineering. Eduba partners with NLP Logix for work that sits below the orchestration layer.</p>
+        <p class="disclosure">Adjacent training proof: 1,500+ people trained across Pacific Life and Colgate-Palmolive since May 2025. 40+ executives trained at KPMG UK, one of the Big Four, in a regulated-industry posture. Senior-level only.</p>
+      </div>
+
+      <aside class="metric-card" aria-label="Engagement outcomes">
+        <div class="tag">Engagement outcomes</div>
+        <div class="metric">
+          <div class="num">1,500<span class="unit">+</span></div>
+          <div class="lab">People trained across Pacific Life and Colgate-Palmolive since May 2025</div>
+        </div>
+        <div class="metric">
+          <div class="num">6,000&ndash;9,000</div>
+          <div class="lab">Hours saved per year, post-workshop</div>
+        </div>
+        <div class="metric">
+          <div class="num">95<span class="unit">%</span></div>
+          <div class="lab">Still using the tools 30 days after the workshop</div>
+        </div>
+        <div class="metric">
+          <div class="num">40<span class="unit">+</span></div>
+          <div class="lab">KPMG UK executives trained, regulated-industry posture</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="paper" aria-labelledby="paper-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label" id="paper-h">04 / Methodology</div>
+      <h2>The reason the methodology travels across verticals without becoming generic.</h2>
+    </div>
+
+    <div class="paper-card">
+      <div class="paper-mark" aria-hidden="true">ICM</div>
+      <div>
+        <h3>Interpretable Context Methodology: Folder Structure as Agent Architecture</h3>
+        <p>Submitted to ACM TiiS. Agent context organized as a layered filesystem with measurable interpretability and reproducibility gains. Fifty-two-member practitioner community, U-shaped edit pattern observed across adopting teams.</p>
+      </div>
+      <a class="repo" href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">
+        View repo <span aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ask" id="ask" aria-labelledby="ask-h">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="label" id="ask-h">05 / The ask</div>
+      <h2>Pick one cohort. Prototype a two-hour workshop. Measure.</h2>
+    </div>
+
+    <div class="ask-grid">
+      <div class="copy">
+        <p>The most useful next step is a 30-minute call. Matt Creamer is leading the relationship side.</p>
+        <p>The test case: pick one PNP cohort (Fintech &amp; AI, Mobility, Supply Chain, Health, whichever has the clearest corporate-partner AI pressure) and prototype a two-hour workshop with the cohort. Measure whether the methodology reduces founder confusion about which computational layer each problem belongs on.</p>
+        <p>If it works, the same content travels across the 25+ verticals.</p>
+      </div>
+
+      <div class="ask-card">
+        <div class="k">Next step</div>
+        <h3>30 minutes on a call. Bring one portfolio founder who is stuck on an AI stack decision. We will run the frame live.</h3>
+
+        <div class="contact">
+          <div class="avatar" aria-hidden="true">MC</div>
+          <div>
+            <div class="name">Matt Creamer</div>
+            <div class="role">Chief Revenue Officer, Eduba</div>
+          </div>
+        </div>
+
+        <a class="cal" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+          Book 30 minutes
+          <span class="url">calendly.com/thecro-eduba/30min</span>
+        </a>
+
+        <p class="fine">Calendar link opens in a new tab. Conversation is exploratory, not a pitch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <div class="prepared">
+      Prepared by <a href="https://eduba.io" target="_blank" rel="noopener">Eduba: eduba.io</a>
+    </div>
+    <div class="meta">For Plug and Play &middot; eMerge Americas 2026 &middot; Booth 921</div>
+  </div>
+</footer>
+
+</body>
+</html>
